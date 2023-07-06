@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,17 +42,42 @@
             font-size: 18px;
             border-radius: 5px;
         }
+        
+        .announcement {
+            margin-top: 50px;
+        }
+        
+        .announcement h3 {
+            font-size: 24px;
+        }
+        
+        .announcement p {
+            font-size: 18px;
+        }
+        
+        .footer {
+            position: fixed;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.5);
+        }
     </style>
 </head>
+
 <body>
     <div id="particles-js"></div>
     <h1>网站引导页</h1>
-    <p>有事找我：📧jimmylovehh@163.com</p>
-    <a href="https://yszx.ueuo.com">前往聊天室</a>
-    <a href="https://yszx1.ueuo.com">备用站点</a>
-
-    <div style="position: fixed; bottom: 20px; left: 0; right: 0; text-align: center; color: rgba(255, 255, 255, 0.5);">
-        <a href="https://xindex.muspimerol.site/" style="text-decoration: none;">xindex</a>
+    <p>联系方式：📧jimmylovehh@163.com</p>
+    <a href="https://yszx.html-5.me">聊天室</a>
+    <a href="https://yszx1.ueuo.com">备用聊天室</a>
+    <div class="announcement">
+        <h3>公告栏</h3>
+        <p>正常情况请使用主聊天室站点！</p>
+    </div>
+    <div class="footer">
+        <a href="https://xindex.muspimerol.site/" style="text-decoration:none;">xindex</a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
@@ -168,4 +194,5 @@
         });
     </script>
 </body>
+
 </html>
